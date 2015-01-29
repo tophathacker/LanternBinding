@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lantern", "Lantern\Lantern.csproj", "{07C9AE43-55A2-4E37-8C7B-BD74580F47B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{07238CD7-2A74-4573-90AF-967FE7D8AEE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lantern.Example", "Example\Lantern.Example\Lantern.Example.csproj", "{BF1367AA-BA28-40BA-ADE5-44621C6E087D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07C9AE43-55A2-4E37-8C7B-BD74580F47B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C9AE43-55A2-4E37-8C7B-BD74580F47B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C9AE43-55A2-4E37-8C7B-BD74580F47B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C9AE43-55A2-4E37-8C7B-BD74580F47B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1367AA-BA28-40BA-ADE5-44621C6E087D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1367AA-BA28-40BA-ADE5-44621C6E087D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1367AA-BA28-40BA-ADE5-44621C6E087D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BF1367AA-BA28-40BA-ADE5-44621C6E087D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1367AA-BA28-40BA-ADE5-44621C6E087D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1367AA-BA28-40BA-ADE5-44621C6E087D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF1367AA-BA28-40BA-ADE5-44621C6E087D} = {07238CD7-2A74-4573-90AF-967FE7D8AEE8}
+	EndGlobalSection
+EndGlobal

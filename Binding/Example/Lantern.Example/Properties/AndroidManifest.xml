@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.tophathacker.Lantern.Example" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk />
+	<application android:label="Lantern Example" android:icon="@drawable/Icon">
+		<service android:name="com.myriadmobile.library.lantern.BeaconService">
+			<intent-filter>
+				<action android:name="com.myriadmobile.library.lantern.beacon_expiration_receiver_action_private" />
+			</intent-filter>
+		</service>
+	</application>
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+</manifest>

@@ -1,0 +1,3 @@
+[submodule "Lantern"]
+	path = Lantern
+	url = https://github.com/tophathacker/lantern
